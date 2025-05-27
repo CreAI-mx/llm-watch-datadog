@@ -53,18 +53,17 @@ Los modelos de lenguaje son potentes, pero en producción funcionan como cajas n
 
 ### 1. Cloná el repositorio
 
-git clone https://github.com/CreAI-mx/llm-watch-datadog.git
-
-cd llm-watch-datadog
+- git clone https://github.com/CreAI-mx/llm-watch-datadog.git
+- cd llm-watch-datadog
 
 ### 2. Crea un archivo .env con las siguientes varibles
 
-OPENAI_API_KEY=tu-api-openai
-DD_API_KEY=tu-api-datadog
-DD_SITE=datadoghq.com
-DD_LLMOBS_ENABLED=1
-DD_LLMOBS_AGENTLESS_ENABLED=1
-DD_LLMOBS_ML_APP=nombre-de-tu-app
+- OPENAI_API_KEY=tu-api-openai
+- DD_API_KEY=tu-api-datadog
+- DD_SITE=datadoghq.com
+- DD_LLMOBS_ENABLED=1
+- DD_LLMOBS_AGENTLESS_ENABLED=1
+- DD_LLMOBS_ML_APP=nombre-de-tu-app
 
 ### 3. Instala las dependencias
 
